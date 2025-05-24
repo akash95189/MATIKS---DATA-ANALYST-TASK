@@ -27,7 +27,19 @@ This project is an end-to-end data analysis solution designed to extract critica
   - **Validation**: Check for any remaining inconsistencies and verify the cleaned data.
   - **Outcome**: Data contains no null and Duplicate values
 
-### 5. Power BI Visualization
+### 5. Load Data into MYSQL
+  - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into each database.
+  - **Table Creation**: Set up tables in both MySQL using Python SQLAlchemy to automate table creation and data insertion.
+
+### 6. SQL Queries:
+  - **Insights from MYSQL Workbench**:
+      - Total Count of Mobile users with Preferred Game Mode as Co-op, Solo and Multiplayer.
+      - Total Count of PC users with Preferred Game Mode as Co-op, Solo and Multiplayer.
+      - Total Count of Console users with Preferred Game Mode as Co-op, Solo and Multiplayer.
+      - Count of different Referral Sources.
+      - Count of different Rank Tiers.
+
+### 7. Power BI Visualization
   - **Business Problem-Solving**: Create a dashboard to have an interactive visualization of:
     - Total Played Sessions.
     - Total Revenue is USD.
@@ -43,7 +55,6 @@ This project is an end-to-end data analysis solution designed to extract critica
 ## Future Enhancements
 
 Possible extensions to this project:
-- Integration with MYSQL Workbench for tabular view.
 - Additional data sources to enhance analysis depth.
 - Integration of Machine Learning Algorithm to make future sales prediction with other parameters.
 ---
